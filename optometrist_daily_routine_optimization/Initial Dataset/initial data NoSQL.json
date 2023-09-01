@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "64c91185f12e122675e499f3"
+  },
+  "Row ID": 1,
+  "Month": "01.10.2021",
+  "Work Days": 21,
+  "Total patients": 40,
+  "Spectacles patients": 37,
+  "ContLens patients": 3
+},
+{
+  "_id": {
+    "$oid": "64c911a6f12e122675e499f5"
+  },
+  "Row ID": 2,
+  "Month": "01.11.2021",
+  "Work Days": 22,
+  "Total patients": 40,
+  "Spectacles patients": 38,
+  "ContLens patients": 2
+},
+{
+  "_id": {
+    "$oid": "64c911bdf12e122675e499f7"
+  },
+  "Row ID": 3,
+  "Month": "01.12.2021",
+  "Work Days": 23,
+  "Total patients": 40,
+  "Spectacles patients": 37,
+  "ContLens patients": 3
+},
+{
+  "_id": {
+    "$oid": "64c911d0f12e122675e499f9"
+  },
+  "Row ID": 4,
+  "Month": "01.01.2022",
+  "Work Days": 20,
+  "Total patients": 40,
+  "Spectacles patients": 38,
+  "ContLens patients": 2
+},
+{
+  "_id": {
+    "$oid": "64c911e2f12e122675e499fb"
+  },
+  "Row ID": 5,
+  "Month": "01.02.2022",
+  "Work Days": 20,
+  "Total patients": 40,
+  "Spectacles patients": 35,
+  "ContLens patients": 5
+},
+{
+  "_id": {
+    "$oid": "64c911eff12e122675e499fd"
+  },
+  "Row ID": 6,
+  "Month": "01.03.2022",
+  "Work Days": 23,
+  "Total patients": 40,
+  "Spectacles patients": 36,
+  "ContLens patients": 4
+},
+{
+  "_id": {
+    "$oid": "64c911fff12e122675e499ff"
+  },
+  "Row ID": 7,
+  "Month": "01.04.2022",
+  "Work Days": 21,
+  "Total patients": 40,
+  "Spectacles patients": 37,
+  "ContLens patients": 3
+},
+{
+  "_id": {
+    "$oid": "64c9125ef12e122675e49a04"
+  },
+  "Row ID": 8,
+  "Month": "01.05.2022",
+  "Work Days": 22,
+  "Total patients": 40,
+  "Spectacles patients": 36,
+  "ContLens patients": 4
+}]

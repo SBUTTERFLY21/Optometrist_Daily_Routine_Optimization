@@ -1,0 +1,46 @@
+CREATE TABLE IF NOT EXISTS public.month_info
+(
+    month_info_id smallint NOT NULL,
+    month_date date NOT NULL,
+    work_days smallint NOT NULL,
+    CONSTRAINT month_info_pkey PRIMARY KEY (month_info_id)
+);
+
+--filling the table with data:
+
+INSERT INTO public.month_info
+VALUES
+(1, '01-10-2021', 21),
+(2, '01-11-2021', 22),
+(3, '01-12-2021', 23),
+(4, '01-01-2022', 20),
+(5, '01-02-2022', 20),
+(6, '01-03-2022', 23),
+(7, '01-04-2022', 21),
+(8, '01-05-2022', 22);
+________________________________________________________________________
+
+CREATE TABLE IF NOT EXISTS public.patients_quant
+(
+    patients_info_id smallint NOT NULL,
+    total_quant smallint NOT NULL,
+    spectacles_quant smallint NOT NULL,
+    contlens_quant smallint NOT NULL,
+    month_info_id smallint,
+    CONSTRAINT patients_quant_pkey PRIMARY KEY (patients_info_id),
+    CONSTRAINT fk_patients_quant_month_info FOREIGN KEY (month_info_id)
+        REFERENCES public.month_info (month_info_id)
+);
+
+--filling the table with data:
+
+INSERT INTO patients_quant
+VALUES
+(1, 40, 37, 3, 1),
+(2, 40, 38, 2, 2), 
+(3, 40, 37, 3, 3),
+(4, 40, 38, 2, 4), 
+(5, 40, 35, 5, 5), 
+(6, 40, 36, 4, 6), 
+(7, 40, 37, 3, 7), 
+(8, 40, 36, 4, 8);
